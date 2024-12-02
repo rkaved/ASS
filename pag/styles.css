@@ -1,0 +1,296 @@
+@import url(https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Ruthie&display=swap);
+/* General */
+body {
+    margin: 0;
+    padding: 0;
+    font-weight: 400; /* Regular weight for body text */
+    background: linear-gradient(to bottom, #5e2129, #0b0b0b);
+    color: #e0e0e0;
+    cursor: url('data:image/x-icon;base64,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AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAABAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA///8f///+H/8//B/+Hng//Awgf/4EAH//BAD//wAA//8AAP//ACB//wBgP/8AwD//AYB//weA//8HgD//B4AP/g4AD/4MAA/+AAAP/gAHj/wAP//8AP//+AP///gP///4H///8H////D////x/////////////////////////8='), auto;
+
+}
+
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('—Pngtree—ornate pattern black abstract_18568490.png'); /* Cambia 'patron.png' por el nombre de tu imagen */
+    background-size: cover; /* Asegura que el patrón cubra todo el fondo */
+    opacity: 0.35; /* Ajusta la opacidad para que sea sutil */
+    z-index: -1; /* Asegura que el patrón esté detrás del contenido */
+}
+:root { 
+    --primary-color: #c82121; /* Rojo oscuro */
+    --secondary-color: #4B0000; /* Vino oscuro */
+    --text-color: #ecc6c6; /* Color de texto claro */
+    --background-color: rgba(0, 0, 0, 0.43); /* Fondo oscuro */
+}
+
+
+h1, h3 {
+    text-align: center;
+    text-shadow: 2px 2px 5px #000000;
+    color: #0f0000; /* Vino claro para resaltar */
+}
+
+/* Título Principal */
+h1 {
+    color: var(--primary-color);
+    font-size: 362%;
+    font-family: 'Bonheur Royale', cursive;
+    text-shadow: 0 0 5px var(--primary-color), 0 0 10px var(--primary-color), 0 0 15px rgba(255, 0, 0, 0.7); /* Efecto neón */
+    letter-spacing: 4px; /* Aumenta el espaciado entre letras */
+    margin-top: 1px; /* Ajusta la posición vertical hacia arriba */
+}
+
+/* Subtítulos */
+h3 {
+    color: var(--primary-color);
+    font-size: 198%;
+    font-family: 'Bonheur Royale', cursive;
+    text-shadow: 0 0 5px var(--primary-color), 0 0 10px var(--primary-color), 0 0 15px rgba(255, 0, 0, 0.7); /* Efecto neón */
+    letter-spacing: 4px; /* Aumenta el espaciado entre letras */
+    margin-top: -25px; /* Ajusta la posición vertical hacia arriba */
+
+}
+
+/* Texto Normal */
+p {
+    font-family: 'Dancing Script', cursive;
+    line-height: 1.8;
+    text-align: justify;
+    font-size: 1.1rem;
+    color: #D1C3C0; /* Contraste para lectura */
+}
+
+a {
+    color: #3f0701;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #FF4444;
+}
+
+/* Header */
+.main-header {
+    background-color: #321111; /* Tono más oscuro para contraste */
+    padding: 15px 20px;
+    border-bottom: 3px solid #c50c0c;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar li a {
+    font-family: 'kings', cursive;
+    font-size: 144%;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border: 14px solid transparent;
+    border-radius: 21px;
+    transition: all 0.3s;
+    color: #de9a9aff;
+}
+
+.navbar li a:hover {
+    border: 1px solid #ff5c4c;
+    background-color: #3D1A24;
+    text-decoration: none;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Media Section */
+.media-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.carousel {
+    position: relative;
+    max-width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 3px solid #d11300;
+    border-radius: 10px;
+}
+
+.carousel-inner img, 
+.carousel-inner video {
+    width: 100%;
+    display: block;
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+    color: #a30e00;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 10;
+}
+
+.carousel-btn:hover {
+    background-color: #550000;
+    color: #ffffff;
+}
+
+.carousel-btn.prev {
+    left: 10px;
+}
+
+.carousel-btn.next {
+    right: 10px;
+}
+
+/* Details Section */
+.details-section {
+    background-color: #2f0707; /* Fondo más oscuro */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #000000;
+    margin-bottom: 30px;
+}
+
+.quote {
+    padding-bottom: 3%;
+    text-align: center;
+    font-family: 'cinzel', cursive;
+    font-size: 78%;
+    color: var(--text-color);
+    transition: color 0.3s, text-shadow 0.3s; /* Transición suave */
+}
+
+.quote:hover {
+    color: #ffffff; /* Color más claro al pasar el mouse */
+    text-shadow: 0 0 5px rgba(183, 0, 0, 0.7), 0 0 10px rgba(255, 0, 0, 0.5); /* Efecto de resplandor al pasar el mouse */
+} 
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 3%;
+}
+
+
+.btn {
+    background: var(--primary-color);
+    color: #e2b5b5;
+    width: 100%;
+    height: 42px;
+    border: none;
+    border-radius: 41px;
+    cursor: pointer;
+    font-size: 25px;
+    font-family: 'Bonheur Royale', cursive;
+    transition: background 0.3s, transform 0.3s;
+    box-shadow: 0 0 5px var(--primary-color), 0 0 10px var(--primary-color), 0 0 15px rgba(255, 0, 0, 0.7); /* Efecto neón */
+}
+
+.btn:hover {
+    background: var(--secondary-color);
+    transform: scale(1.05);
+}
+
+
+/* Reviews Section */
+.reviews-section {
+    background-color: #390c0c; /* Fondo oscuro para contraste */
+    padding-top: 6%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    border-radius: 25px;
+    box-shadow: 0 0 15px #000000;
+}
+
+textarea#commentInput {
+    width: 92%;
+    height: 92px;
+    background-color: #4e1919;
+    color: #D1C3C0;
+    border: 2px solid #ce1200;
+    border-radius: 12px;
+    padding: 15px;
+    resize: none;
+    padding-bottom: 3%;
+}
+
+textarea#commentInput::placeholder {
+    color: #db8686;
+}
+#submitReview{
+    padding-left: 29%;
+    padding: 2% 9% 2%;
+    
+}
+button#submitReview {
+    margin-top: 10px;
+    background: var(--primary-color);
+    color: #e2b5b5;
+    width: 97%; 
+    border: none;
+    border-radius: 22px;
+    cursor: pointer;
+    font-size: 25px;
+    font-family: 'Bonheur Royale', cursive;
+    transition: background 0.3s, transform 0.3s;
+    box-shadow: 0 0 5px var(--primary-color), 0 0 10px var(--primary-color), 0 0 15px rgba(255, 0, 0, 0.7); /* Efecto neón */
+}
+
+button#submitReview:hover {
+    background: var(--secondary-color);
+    transform: scale(1.05);
+}
+
+
+/* Footer */
+.main-footer {
+    background-color: #1a0d0d;
+    color: #000000;
+    text-align: center;
+    padding: 25px 0;
+    font-size: 14px;
+    border-top: 3px solid #FF6F61;
+}
+
+/* Scroll to Top Button */
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #7b0b00;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #000000;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+#scrollToTopBtn:hover {
+    transform: scale(1.2);
+    background-color: #660000;
+}
