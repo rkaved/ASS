@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo Tétrico de Realidad Virtual</title>
+    <link rel="stylesheet" href="pag/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Cinzel:wght@400..900&family=Kings&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Ruthie&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <h1>Laughterhouse</h1>
+        <nav class="navbar">
+            <ul>
+                <li><a href="profile.html">Perfil</a></li>
+                <li><a href="#details">Detalles</a></li>
+                <li><a href="#reviews">Reseñas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section class="media-section" id="carousel">
+            <div class="carousel">
+                <button class="carousel-btn prev" onclick="prevSlide()">&#10094;</button>
+                <div class="carousel-inner">
+                    <img src="pag/sala1.png" alt="Imagen 1">
+                    <img src="pag/sala%202.png" alt="Imagen 2">
+                    <img src="pag/sala%203.png" alt="Imagen 3">
+                    <img src="pag/sala%204.png" alt="Imagen 4">
+                </div>
+                <button class="carousel-btn next" onclick="nextSlide()">&#10095;</button>
+            </div>
+        </section>
+
+        <section class="details-section" id="details">
+            <center>
+                <h1>Sinopsis</h1>
+                <p class="quote">El amor, cuando se retuerce, puede volverse una prisión. En este mundo, un hombre vive atrapado por su obsesión enfermiza hacia una mujer, una devoción que se arrastra como una sombra, devorándolo todo a su paso. Su realidad se hunde en lo oscuro, donde cada pensamiento y cada latido giran en torno a ella, hasta que el deseo se convierte en una fuerza peligrosa, insaciable.</p>
+                <p class="quote">Explora los rincones más oscuros de una mente quebrada, donde la pasión no tiene límites y las consecuencias son tan devastadoras como inevitables. "Ecos de la Obsesión" te invita a ser testigo de lo que ocurre cuando el amor se transforma en una locura voraz.</p>
+                <p class="quote">Descárgalo y enfrenta el abismo… si puedes soportarlo.</p>
+                <div class="button-group">
+                    <button onclick="alert('Indaga por la página y sumérgete en nuestro mundo...')" class="btn">
+                        <a href="pagina_principal.html">Explorar</a>
+                    </button>
+                    <button class="btn">
+                        <a href="Casa lista tour con animaciones y audio tec.apk" download="CasaListaTour.apk" 
+                           onclick="alert('Descargando...')">APK
+                        </a>
+                    </button>
+                    <button onclick="alert('Ve las fotitos..')" class="btn">Ver Tráiler</button>
+                </div>
+
+            </center>
+        </section>
+
+        <section class="reviews-section" id="reviews">
+            <h3>Reseñas </h3>
+            <textarea id="commentInput" placeholder="Deja tu reseña..."></textarea>
+            <button id="submitReview">Enviar Reseña</button>
+            <ul id="commentList"></ul>
+        </section>
+    </div>
+    
+    <footer class="main-footer">
+        <p>&copy; 2024 Derechos reservados. "Matadero Un Mundo de Realidad Virtual"</p>
+    </footer>
+    <button onclick="scrollToTop()" id="scrollToTopBtn">🔪</button>
+
+    <script src="pag/script.js"></script>
+</body>
+</html>
